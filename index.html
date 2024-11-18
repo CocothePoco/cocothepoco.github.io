@@ -248,5 +248,25 @@
 <noscript>
     <link rel="stylesheet" href="/assets/styles/noscript.css?id=4a727ad96b2be0db8eb91f708d211bd0">
 </noscript>
+
+<div class="music-player">
+    <audio id="background-audio" autoplay>
+        <source src="music/rain.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var audio = document.getElementById('background-audio');
+        audio.volume = 0.2;
+    });
+</script>
+
+<style>
+    .music-player {
+        display: none;
+    }
+</style>
 </body>
 </html>
