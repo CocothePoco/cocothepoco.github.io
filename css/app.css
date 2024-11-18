@@ -719,7 +719,7 @@ body {
     --tw-bg-opacity: 1;
     background-attachment: fixed;
     background-color: rgb(34 34 34 / var(--tw-bg-opacity));
-    background-image: url('/images/background-texture.png');
+    background-image: url(../images/background-texture.png);
     background-repeat: repeat;
     overflow: hidden;
     position: relative;
@@ -1417,7 +1417,7 @@ html.has-reduced-motion .c-case-study .c-case-study__title:after {
     --tw-content: "";
     background-attachment: fixed;
     background-color: rgb(34 34 34 / var(--tw-bg-opacity));
-    background-image: url('/images/background-texture.png');
+    background-image: url(../images/background-texture.png);
     background-repeat: repeat;
     content: var(--tw-content);
     height: 100%;
@@ -4182,7 +4182,7 @@ html.has-reduced-motion .c-video .c-video__image-play svg {
     align-items: center;
     background-attachment: fixed;
     background-color: rgb(34 34 34 / var(--tw-bg-opacity));
-    background-image: url('/images/background-texture.png');
+    background-image: url(../images/background-texture.png);
     background-repeat: repeat;
     display: -webkit-box;
     display: -ms-flexbox;
